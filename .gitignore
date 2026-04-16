@@ -7,3 +7,21 @@ Thumbs.db
 
 # macOS metadata
 ._*
+
+# Codex local state
+.codex/
+
+# Node dependencies and debug logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cloudflare/Wrangler local state
+.wrangler/
+
+# Local environment files
+.env
+.env.*
+!.env.example
